@@ -1,4 +1,4 @@
-package com.emc.aws.sqs.domain;
+package com.emc.aws.sqs.model;
 
 public class Messages {
 
