@@ -39,6 +39,7 @@ import com.emc.aws.sqs.model.Queues;
 public class SqsQueueController {
 	
 	final AmazonSQS sqs = AmazonSQSClientBuilder.defaultClient();
+	//private AmazonSQSClientBuilder sqsClientBuilder = AmazonSQSClientBuilder.standard();
 
 	@GetMapping(value = "/create", produces = "application/json")
 	public @ResponseBody String createQueue(@RequestParam String queueName) {
